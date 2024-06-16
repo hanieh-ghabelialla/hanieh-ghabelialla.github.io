@@ -3,21 +3,25 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
 header {
     text-align: center;
     padding: 20px;
     background: #f4f4f4;
+    border-bottom: 2px solid #ddd;
 }
 
 header h1 {
     margin: 10px 0;
+    color: #333;
 }
 
 header p {
     font-size: 1.2em;
     margin: 10px 0;
+    color: #666;
 }
 
 .contact-info a {
@@ -45,10 +49,15 @@ main {
 
 section {
     margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h2 {
     margin-bottom: 10px;
+    color: #333;
 }
 
 ul {
@@ -58,7 +67,10 @@ ul {
 
 ul li {
     margin: 10px 0;
+    color: #555;
 }
+
+
 
 
 
